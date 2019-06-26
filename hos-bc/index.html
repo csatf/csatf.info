@@ -3,19 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <link rel="preload" href="/img/logo-main.png" as="image">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <!--<link rel="stylesheet" href="/css/style.css">-->
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <!-- Import other AMP Extensions here -->
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-    <style amp-custom>
-        /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */@keyframes spinAround{from{transform:rotate(0deg)}to{transform:rotate(359deg)}}.content:not(:last-child),.title:not(:last-child),.level:not(:last-child){margin-bottom:1.5rem}/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */html,body,p,legend,h4{margin:0;padding:0}h4{font-size:100%;font-weight:normal}button,input{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img{height:auto;max-width:100%}html{background-color:#fff;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;text-size-adjust:100%}footer,header,section{display:block}body,button,input{font-family:BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif}body{color:#4a4a4a;font-size:1em;font-weight:400;line-height:1.5}a{color:#3273dc;cursor:pointer;text-decoration:none}a strong{color:currentColor}a:hover{color:#363636}img{height:auto;max-width:100%}input[type="checkbox"],input[type="radio"]{vertical-align:baseline}span{font-style:inherit;font-weight:inherit}strong{color:#363636;font-weight:700}.has-text-centered{text-align:center !important}.has-text-right{text-align:right !important}.container{flex-grow:1;margin:0 auto;position:relative;width:auto}@media screen and (min-width: 1024px){.container{max-width:960px}}@media screen and (min-width: 1216px){.container{max-width:1152px}}@media screen and (min-width: 1408px){.container{max-width:1344px}}.content p:not(:last-child){margin-bottom:1em}.content h4{color:#363636;font-weight:600;line-height:1.125}.content h4{font-size:1.25em;margin-bottom:0.8em}.image{display:block;position:relative}.image img{display:block;height:auto;width:100%}@keyframes moveIndeterminate{from{background-position:200% 0}to{background-position:-200% 0}}.title{word-break:break-word}.title span{font-weight:inherit}.title{color:#363636;font-size:2rem;font-weight:600;line-height:1.125}.title strong{color:inherit;font-weight:inherit}.level{align-items:center;justify-content:space-between}.level img{display:inline-block;vertical-align:top}@media screen and (min-width: 769px), print{.level{display:flex}.level>.level-item:not(.is-narrow){flex-grow:1}}.level-item{align-items:center;display:flex;flex-basis:auto;flex-grow:0;flex-shrink:0;justify-content:center}.level-item .title{margin-bottom:0}@media screen and (max-width: 768px){.level-item:not(:last-child){margin-bottom:.75rem}}.level-left,.level-right{flex-basis:auto;flex-grow:0;flex-shrink:0}@media screen and (min-width: 769px), print{.level-left .level-item:not(:last-child),.level-right .level-item:not(:last-child){margin-right:.75rem}}.level-left{align-items:center;justify-content:flex-start}@media screen and (max-width: 768px){.level-left+.level-right{margin-top:1.5rem}}@media screen and (min-width: 769px), print{.level-left{display:flex}}.level-right{align-items:center;justify-content:flex-end}@media screen and (min-width: 769px), print{.level-right{display:flex}}.navbar-item{color:#4a4a4a;display:block;line-height:1.5;padding:0.5rem 0.75rem;position:relative}a.navbar-item{cursor:pointer}a.navbar-item:focus,a.navbar-item:focus-within,a.navbar-item:hover{background-color:#fafafa;color:#3273dc}.navbar-item{display:block;flex-grow:0;flex-shrink:0}.navbar-item img{max-height:1.75rem}@media screen and (min-width: 1024px){.navbar-item{align-items:center;display:flex}.navbar-item{display:flex}}.section{padding:3rem 1.5rem}.footer{background-color:#f2f2f2;padding:1.5rem}body{font-family:"Verdana", Arial, Tahoma, sans-serif;font-size:14px;line-height:25px;font-weight:400;letter-spacing:0px}header{background-color:black;color:#bbbbbb}header.section{padding:1.5rem 1.5rem;font-size:13px}strong{color:inherit}h4{font-size:24px;line-height:28px;font-weight:400;letter-spacing:0px}h4{font-family:"Oswald", Arial, Tahoma, sans-serif;margin-bottom:15px}#top-logo{margin-top:-84px;margin-left:24px}#about{font-family:"Oswald", Arial, Tahoma, sans-serif;line-height:50px;padding:0 20px;font-size:20px;color:white}#about:hover,#about:focus{color:black}#top-contact{display:none}@media screen and (min-width: 769px), print{#top-contact{display:flex}}.footer,.sub-footer{color:#4b555f}.footer a,.sub-footer a{display:inline-block;color:#4b555f !important;text-decoration:none !important}.footer .level-right,.footer .level-left,.sub-footer .level-right,.sub-footer .level-left{align-items:start}.footer .level-item,.sub-footer .level-item{padding-left:50px;display:block}.dot{margin:0 4px 2px;height:4px;width:4px;background-color:#000;border-radius:50%;display:inline-block}
+    <style>
+        /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */@keyframes spinAround{from{transform:rotate(0deg)}to{transform:rotate(359deg)}}.button{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.content:not(:last-child),.title:not(:last-child),.block:not(:last-child),.level:not(:last-child){margin-bottom:1.5rem}.button,.input{-moz-appearance:none;-webkit-appearance:none;align-items:center;border:1px solid transparent;border-radius:0;box-shadow:none;display:inline-flex;font-size:1rem;height:2.25em;justify-content:flex-start;line-height:1.5;padding-bottom:calc(0.375em - 1px);padding-left:calc(0.625em - 1px);padding-right:calc(0.625em - 1px);padding-top:calc(0.375em - 1px);position:relative;vertical-align:top}.button:focus,.input:focus,.button:active,.input:active{outline:none}[disabled].button,[disabled].input{cursor:not-allowed}/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */html,body,p,legend,iframe,h4{margin:0;padding:0}h4{font-size:100%;font-weight:normal}button,input{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,embed,iframe{height:auto;max-width:100%}iframe{border:0}html{background-color:#fff;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;text-size-adjust:100%}footer,header,section{display:block}body,button,input{font-family:BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif}body{color:#4a4a4a;font-size:1em;font-weight:400;line-height:1.5}a{color:#3273dc;cursor:pointer;text-decoration:none}a strong{color:currentColor}a:hover{color:#363636}img{height:auto;max-width:100%}input[type="checkbox"],input[type="radio"]{vertical-align:baseline}span{font-style:inherit;font-weight:inherit}strong{color:#363636;font-weight:700}.has-text-centered{text-align:center !important}.has-text-right{text-align:right !important}.button{background-color:#fff;border-color:#dbdbdb;border-width:1px;color:#363636;cursor:pointer;justify-content:center;padding-bottom:calc(0.375em - 1px);padding-left:.75em;padding-right:.75em;padding-top:calc(0.375em - 1px);text-align:center;white-space:nowrap}.button strong{color:inherit}.button:hover{border-color:#b5b5b5;color:#363636}.button:focus{border-color:#3273dc;color:#363636}.button:focus:not(:active){box-shadow:0 0 0 0.125em rgba(50,115,220,0.25)}.button:active{border-color:#4a4a4a;color:#363636}.button[disabled]{background-color:#fff;border-color:#dbdbdb;box-shadow:none;opacity:.5}.container{flex-grow:1;margin:0 auto;position:relative;width:auto}@media screen and (min-width: 1024px){.container{max-width:960px}}@media screen and (min-width: 1216px){.container{max-width:1152px}}@media screen and (min-width: 1408px){.container{max-width:1344px}}.content p:not(:last-child){margin-bottom:1em}.content h4{color:#363636;font-weight:600;line-height:1.125}.content h4{font-size:1.25em;margin-bottom:0.8em}.image{display:block;position:relative}.image img{display:block;height:auto;width:100%}@keyframes moveIndeterminate{from{background-position:200% 0}to{background-position:-200% 0}}.tag:not(body){align-items:center;background-color:#f5f5f5;border-radius:4px;color:#4a4a4a;display:inline-flex;font-size:.75rem;height:2em;justify-content:center;line-height:1.5;padding-left:0.75em;padding-right:0.75em;white-space:nowrap}a.tag:hover{text-decoration:underline}.title{word-break:break-word}.title span{font-weight:inherit}.title .tag{vertical-align:middle}.title{color:#363636;font-size:2rem;font-weight:600;line-height:1.125}.title strong{color:inherit;font-weight:inherit}.input{background-color:#fff;border-color:#dbdbdb;border-radius:4px;color:#363636}.input::-moz-placeholder{color:rgba(54,54,54,0.3)}.input::-webkit-input-placeholder{color:rgba(54,54,54,0.3)}.input:-moz-placeholder{color:rgba(54,54,54,0.3)}.input:-ms-input-placeholder{color:rgba(54,54,54,0.3)}.input:hover{border-color:#b5b5b5}.input:focus,.input:active{border-color:#3273dc;box-shadow:0 0 0 0.125em rgba(50,115,220,0.25)}[disabled].input{background-color:#f5f5f5;border-color:#f5f5f5;box-shadow:none;color:#7a7a7a}[disabled].input::-moz-placeholder{color:rgba(122,122,122,0.3)}[disabled].input::-webkit-input-placeholder{color:rgba(122,122,122,0.3)}[disabled].input:-moz-placeholder{color:rgba(122,122,122,0.3)}[disabled].input:-ms-input-placeholder{color:rgba(122,122,122,0.3)}.input{box-shadow:inset 0 1px 2px rgba(10,10,10,0.1);max-width:100%;width:100%}[readonly].input{box-shadow:none}.checkbox,.radio{cursor:pointer;display:inline-block;line-height:1.25;position:relative}.checkbox input,.radio input{cursor:pointer}.checkbox:hover,.radio:hover{color:#363636}[disabled].checkbox,[disabled].radio{color:#7a7a7a;cursor:not-allowed}.radio+.radio{margin-left:0.5em}.level{align-items:center;justify-content:space-between}.level img{display:inline-block;vertical-align:top}@media screen and (min-width: 769px), print{.level{display:flex}.level>.level-item:not(.is-narrow){flex-grow:1}}.level-item{align-items:center;display:flex;flex-basis:auto;flex-grow:0;flex-shrink:0;justify-content:center}.level-item .title{margin-bottom:0}@media screen and (max-width: 768px){.level-item:not(:last-child){margin-bottom:.75rem}}.level-left,.level-right{flex-basis:auto;flex-grow:0;flex-shrink:0}@media screen and (min-width: 769px), print{.level-left .level-item:not(:last-child),.level-right .level-item:not(:last-child){margin-right:.75rem}}.level-left{align-items:center;justify-content:flex-start}@media screen and (max-width: 768px){.level-left+.level-right{margin-top:1.5rem}}@media screen and (min-width: 769px), print{.level-left{display:flex}}.level-right{align-items:center;justify-content:flex-end}@media screen and (min-width: 769px), print{.level-right{display:flex}}.media{align-items:flex-start;display:flex;text-align:left}.media .content:not(:last-child){margin-bottom:0.75rem}.media .media{border-top:1px solid rgba(219,219,219,0.5);display:flex;padding-top:0.75rem}.media .media .content:not(:last-child){margin-bottom:0.5rem}.media .media .media{padding-top:0.5rem}.media .media .media+.media{margin-top:0.5rem}.media+.media{border-top:1px solid rgba(219,219,219,0.5);margin-top:1rem;padding-top:1rem}.navbar-item{color:#4a4a4a;display:block;line-height:1.5;padding:0.5rem 0.75rem;position:relative}a.navbar-item{cursor:pointer}a.navbar-item:focus,a.navbar-item:focus-within,a.navbar-item:hover{background-color:#fafafa;color:#3273dc}.navbar-item{display:block;flex-grow:0;flex-shrink:0}.navbar-item img{max-height:1.75rem}@media screen and (min-width: 1024px){.navbar-item{align-items:center;display:flex}.navbar-item{display:flex}}.section{padding:3rem 1.5rem}.footer{background-color:#f2f2f2;padding:1.5rem}body{font-family:"Verdana", Arial, Tahoma, sans-serif;font-size:14px;line-height:25px;font-weight:400;letter-spacing:0px}header{background-color:black;color:#bbbbbb}header.section{padding:1.5rem 1.5rem;font-size:13px}strong{color:inherit}h4{font-size:24px;line-height:28px;font-weight:400;letter-spacing:0px}h4{font-family:"Oswald", Arial, Tahoma, sans-serif;margin-bottom:15px}#top-logo{margin-top:-84px;margin-left:24px}#about{font-family:"Oswald", Arial, Tahoma, sans-serif;line-height:50px;padding:0 20px;font-size:20px;color:white}#about:hover,#about:focus{color:black}#top-contact{display:none}@media screen and (min-width: 769px), print{#top-contact{display:flex}}.video-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0}.video-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute}.footer,.sub-footer{color:#4b555f}.footer a,.sub-footer a{display:inline-block;color:#4b555f !important;text-decoration:none !important}.footer .level-right,.footer .level-left,.sub-footer .level-right,.sub-footer .level-left{align-items:start}.footer .level-item,.sub-footer .level-item{padding-left:50px;display:block}.dot{margin:0 4px 2px;height:4px;width:4px;background-color:#000;border-radius:50%;display:inline-block}
     </style>
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
     <link rel="canonical" href="https://www.csatf.info/hos-bc">
     <title>Contract Services – A non-profit organization, Contract Services administers a variety of programs for the benefit of the motion picture and television industry</title>
     <meta name="description" content="A non-profit organization, Contract Services administers a variety of programs for the benefit of the motion picture and television industry.">
@@ -84,22 +77,25 @@
     </nav>
 </header>
 <div id="top-logo">
-    <amp-img
+    <img
         src="/img/logo-main.png"
         width="120"
         height="168"
         alt="Contract Sevices Logo"
-        layout="intrinsic"
-    ></amp-img>
+    />
 </div>
 <div class="container">
     <section class="section">
-        <amp-youtube
-            data-videoid="7FTqFHF28TM"
-            width="358"
-            height="204"
-            layout="responsive">
-        </amp-youtube>
+        <div class="video-responsive">
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/7FTqFHF28TM"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+        </div>
     </section>
     <section id="#Footer" class="section sub-footer">
         <div class="level">
@@ -107,13 +103,12 @@
             <div class="level-left" style="align-items: start">
                 <div class="" style="align-items: start">
                     <div>
-                        <amp-img
+                        <img
                             src="/img/logo-main.png"
                             width="70"
                             height="98"
                             alt="Contract Sevices Logo"
-                            layout="intrinsic"
-                        ></amp-img>
+                        />
                     </div>
                     <div>
                         <p style="font-size: 12px;line-height: 18px;">
@@ -155,17 +150,14 @@
         </p>
     </div>
 </footer>
-<amp-analytics type="gtag" data-credentials="include">
-<script type="application/json">
-    {
-        "vars": {
-            "gtag_id": "UA-5542277-13",
-            "config": {
-                "UA-5542277-13": { "groups": "default" }
-            }
-        }
-    }
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5542277-13"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-5542277-13');
 </script>
-</amp-analytics>
 </body>
 </html>
