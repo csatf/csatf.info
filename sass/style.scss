@@ -1,0 +1,100 @@
+//
+// Build with
+// $ sass --sourcemap=none --style=compressed sass/style.scss:css/style.css
+// $ purgecss --css css/style.css --content **/*.html --out css
+//
+
+@charset "utf-8";
+
+$footer-padding: 1.5rem;
+$footer-background-color: #f2f2f2;
+$primary: #005395;
+$control-radius: 0;
+
+@import "./bulma.sass";
+
+body {
+  font-family: "Verdana", Arial, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+header {
+  background-color: black;
+  color: #bbbbbb;
+}
+
+header.section {
+  padding: 1.5rem 1.5rem;
+  font-size: 13px;
+}
+
+strong {
+  color: inherit;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Oswald", Arial, Tahoma, sans-serif;
+  margin-bottom: 15px;
+}
+
+#top-logo {
+  margin-top: -84px; margin-left:24px
+}
+
+#about {
+  font-family: "Oswald", Arial, Tahoma, sans-serif;
+  line-height: 50px;
+  padding: 0 20px;
+  font-size: 20px;
+  color: white;
+
+  &:hover, &:focus {
+    color: black;
+  }
+}
+
+#top-contact {
+  display: none;
+
+  @include tablet {
+    display: flex;
+  }
+}
+
+.footer, .sub-footer {
+  color: #4b555f;
+  a {
+    display: inline-block;
+    color: #4b555f !important;
+    text-decoration: none !important;
+  }
+
+  .level-right, .level-left{
+    align-items: start
+  }
+
+ .level-item{
+   padding-left: 50px;
+   display: block;
+ }
+}
+
+.dot {
+  margin: 0 4px 2px;
+  height: 4px;
+  width: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
